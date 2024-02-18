@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pagina web con un blog sobre el cafe">
+    <meta name="author" content="Jose Manuel Perdomo Marcano">
+    <meta name="keywords" content="cafe, recetas, blog, postres"/> 
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Curso tecnicas Extraccion</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="contenedor">
+        <div class="barra">
+          <a class="logo" href="index.html">
+            <h1 class="logo__nombre no-margin">
+              Blog<span class="logo__bold">DeCafe</span>
+            </h1>
+          </a>
+
+          <nav class="navegacion">
+            <a class="navegacion__enlaces" href="index.html">Inicio</a>
+            <a
+              class="navegacion__enlaces"
+              href="nosotros.html"
+              >Nosotros</a
+            >
+            <a class="navegacion__enlaces navegacion__enlaces--activo" href="cursos.html">Cursos</a>
+            <a class="navegacion__enlaces" href="contacto.html">Contacto</a>
+          </nav>
+        </div>
+      </div>
+
+      <div class="header__texto">
+        <h2 class="no-margin headertext">Blog de Cafe consejos y cursos</h2>
+        <p class="no-margin headermsj">
+          Aprende de los expertos con las mejores recetas y consejos
+        </p>
+      </div>
+    </header>
+
+    <main class="contenedor">
+      <h3 class="centrar-texto">Tecnicas de Extraccion de Café</h3>
+      <div class="sobre-nosotros">
+        <div class="sobre-nosotros__imagen">
+          <picture>
+            <source loading="lazy" srcset="img/curso1.webp" type="image/webp">
+            <img loading="lazy" src="img/curso1.jpg" alt="imagen blogs" />
+          </picture>
+        </div>
+        <div class="sobre-nosotros__texto">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
+            praesentium distinctio, consequatur pariatur autem corrupti
+            inventore modi totam ex laudantium, fuga rem voluptas repellat enim voluptate laudantium vero inventore exercitationem temporibus,pariatur ab autem, similique nesciunt reprehenderit, dignissimos,
+            pariatur ab autem, similique nesciunt reprehenderit, dignissimos,
+            numquam doloribus laboriosam nostrum eaque.
+          </p>
+
+          <p>
+            Aspernatur, repellat? Eius, quaerat! Iusto dolore assumenda debitis
+            voluptate laudantium vero inventore exercitationem temporibus
+            pariatur ab autem, similique nesciunt reprehenderit, dignissimos, a
+            id qui officiis quod quaerat doloribus incidunt magni.
+          </p>
+          <a class="boton boton--secundario" href="cursos.html"
+          >Volver a Cursos</a
+        >
+        <a class="boton boton--secundario" href="index.html"
+        >Ir a Inicio</a
+      >
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="contenedor">
+        <div class="barra">
+          <a class="logo" href="index.html">
+            <h1 class="logo__nombre-footer name-footer centrar-texto no-margin">
+              Blog<span class="logo__bold"
+                >DeCafe <span class="texto-footer"> &copy;</span>
+                <span class="texto-footer">
+                  <script>
+                    const date = new Date();
+                    const year = date.getFullYear();
+                    const month = date.getMonth() + 1;
+                    const day = date.getDate();
+                    const formattedDate = `${year}`; //AQUI SELECCIONE LO QUE QUERIA MOSTRAR Y ELIMINE LO QUE NO QUERIA MOSTRAR
+                    document.write(`${formattedDate}`);
+                  </script>
+                  Derechos Reservados</span
+                >
+              </span>
+            </h1>
+          </a>
+
+          <nav class="navegacion">
+            <a class="navegacion__enlaces" href="index.html">Inicio</a>
+            <a class="navegacion__enlaces" href="nosotros.html">Nosotros</a>
+            <a class="navegacion__enlaces" href="cursos.html">Cursos</a>
+            <a class="navegacion__enlaces" href="contacto.html">Contacto</a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <script src="js/modernizr.js"></script>
+  </body>
+</html>

@@ -1,114 +1,205 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Pagina web con un blog sobre el cafe">
-    <meta name="author" content="Jose Manuel Perdomo Marcano">
-    <meta name="keywords" content="cafe, recetas, blog, postres"/> 
+    <title>Tres Deliciosas Recetas de Café de Especialidad para Casa | Blog de Café</title>
+    <meta name="description" content="Aprende a preparar un Flat White sedoso, un Cold Brew con infusión de vainilla y el clásico Affogato italiano con proporciones exactas de barista." />
+    <meta name="author" content="Jose Manuel Perdomo Marcano" />
+
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=PT+Sans:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Tres Deliciosas recetas de Café</title>
   </head>
   <body>
-    <header class="header">
+    <!-- Top Bar Notice -->
+    <div class="top-notice-bar">
+      <span>☕ Tostaduría de Especialidad 2026 — Nuevos talleres de Barismo con cupo abierto.</span>
+      <a href="cursos.html">Ver Calendario &rarr;</a>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="site-navbar">
       <div class="contenedor">
         <div class="barra">
           <a class="logo" href="index.html">
-            <h1 class="logo__nombre no-margin">
-              Blog<span class="logo__bold">DeCafe</span>
-            </h1>
+            <div class="logo__icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M20 3H4v10c0 2.21 1.79 4 4 4h6c2.21 0 4-1.79 4-4v-3h2c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 5h-2V5h2v3zM4 19h16v2H4z"/>
+              </svg>
+            </div>
+            <div class="logo__text-wrap">
+              <span class="logo__nombre">Blog<span class="logo__bold">DeCafé</span></span>
+              <span class="logo__tagline">Specialty Coffee & Barista Craft</span>
+            </div>
           </a>
 
-          <nav class="navegacion">
-            <a class="navegacion__enlaces  navegacion__enlaces--activo" href="index.html">Inicio</a>
-            <a
-              class="navegacion__enlaces"
-              href="nosotros.html"
-              >Nosotros</a
-            >
-            <a class="navegacion__enlaces" href="cursos.html">Cursos</a>
-            <a class="navegacion__enlaces" href="contacto.html">Contacto</a>
-          </nav>
-        </div>
-      </div>
-
-      <div class="header__texto">
-        <h2 class="no-margin headertext">Blog de Cafe consejos y cursos</h2>
-        <p class="no-margin headermsj">
-          Aprende de los expertos con las mejores recetas y consejos
-        </p>
-      </div>
-    </header>
-
-    <main class="contenedor">
-      <h3 class="centrar-texto">Tres Deliciosas recetas de Café</h3>
-      <picture>
-        <source srcset="img/blog2.webp" type="image/webp">
-        <img loading="lazy" src="img/blog2.jpg" alt="imagen blogs" />
-      </picture>
-
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid similique molestiae labore esse illum excepturi expedita consequatur, libero, praesentium, nulla deserunt molestias? Sequi exercitationem velit, est eum molestiae excepturi tempora.
-     Eveniet dolores, fugit laudantium, suscipit consequuntur quas hic expedita, placeat quo quidem labore. Quis ipsam rerum, velit, voluptatum culpa distinctio esse voluptas adipisci aspernatur unde modi reprehenderit temporibus. Ipsum, totam.
-     Quae debitis ipsum deserunt quibusdam quidem similique magnam beatae omnis praesentium officia vero totam, cumque recusandae, quaerat delectus facilis sapiente maxime eos dolor, alias eveniet corrupti? Facere at vero asperiores!</p>
-
-     <p>Doloremque ducimus dicta exercitationem, molestias, omnis, delectus ipsum consequatur praesentium itaque soluta nihil temporibus asperiores laboriosam quasi provident. Necessitatibus commodi minus incidunt sit, expedita non soluta ab repellat corrupti neque.
-     Sed dolores itaque in culpa. Optio ducimus ratione tenetur ullam consectetur a magnam magni. Excepturi ea velit, esse dolore quis quos sapiente ex tempora unde inventore placeat vitae necessitatibus. Nobis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, quis. Nisi sed amet, assumenda repudiandae molestias est quaerat deserunt accusantium sint reiciendis expedita ducimus quod, ullam quam repellat blanditiis accusamus!</p>
-
-     <p>Asperiores id minima, quam beatae expedita enim incidunt similique doloremque illo voluptates voluptatibus repellendus quas nulla corrupti temporibus sunt, eveniet pariatur esse cupiditate voluptatum atque quia! Soluta esse inventore quae.
-     Officia sint fuga facilis quis iure quas quisquam. At autem voluptatibus repellendus ducimus, voluptas quam fugit numquam ipsam, eaque cum quibusdam iure minus reiciendis beatae optio amet mollitia corporis aperiam.</p>
-
-     <p>Iusto cupiditate dicta quam ea cumque harum tenetur, facere quasi reprehenderit libero architecto! Esse, ea debitis labore dolor sed voluptate voluptates dolorum vero commodi repellat eligendi architecto aut ipsam blanditiis!
-     Debitis corrupti ipsam repudiandae distinctio excepturi illum aut rem eius cupiditate quae assumenda eaque fugiat error ea facere non, iusto praesentium reiciendis delectus voluptatem modi. Laborum placeat minima quibusdam temporibus.</p>
-
-     <p>Doloremque repellat, rerum delectus sed obcaecati eius excepturi at eligendi ipsam sit voluptatum cumque aliquam deleniti enim sapiente quam, est nostrum eaque, nobis fugit. Exercitationem repudiandae ipsum in laboriosam excepturi!
-     Culpa quae harum amet magni numquam repudiandae exercitationem sint ipsam, at unde voluptas quis totam. Nostrum, beatae, at est exercitationem dolores soluta natus quaerat porro officia mollitia qui odit nihil.</p>
-
-     <p>Harum inventore expedita beatae nulla at, voluptas fuga deleniti, numquam molestias officiis amet error voluptatibus itaque accusamus maiores consequuntur alias. Veritatis quidem ipsum mollitia atque. Nulla doloribus inventore totam consectetur.
-     Id dolorum aperiam magni nesciunt in nulla deleniti accusantium, animi possimus, nostrum deserunt perferendis ut. Non numquam magnam culpa? Nemo officiis at molestiae iure ratione quidem possimus hic id animi.
-     Doloribus quidem in dolorem beatae veritatis earum harum suscipit inventore doloremque numquam deleniti officia quos minima delectus tempora sed, fugiat quod! Quia dicta nulla aperiam quisquam excepturi delectus nisi iusto!</p>
-     <a class="boton boton--secundario" href="index.html"
-     >Ir a Inicio</a
-   >
-    </main>
-
-    <footer class="footer">
-      <div class="contenedor">
-        <div class="barra">
-          <a class="logo" href="index.html">
-            <h1 class="logo__nombre-footer name-footer centrar-texto no-margin">
-              Blog<span class="logo__bold"
-                >DeCafe <span class="texto-footer"> &copy;</span>
-                <span class="texto-footer">
-                  <script>
-                    const date = new Date();
-                    const year = date.getFullYear();
-                    const month = date.getMonth() + 1;
-                    const day = date.getDate();
-                    const formattedDate = `${year}`; //AQUI SELECCIONE LO QUE QUERIA MOSTRAR Y ELIMINE LO QUE NO QUERIA MOSTRAR
-                    document.write(`${formattedDate}`);
-                  </script>
-                  Derechos Reservados</span
-                >
-              </span>
-            </h1>
-          </a>
+          <button class="mobile-menu-btn" aria-label="Abrir menú de navegación" aria-expanded="false">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
 
           <nav class="navegacion">
-            <a class="navegacion__enlaces" href="index.html">Inicio</a>
+            <a class="navegacion__enlaces navegacion__enlaces--activo" href="index.html">Inicio</a>
             <a class="navegacion__enlaces" href="nosotros.html">Nosotros</a>
             <a class="navegacion__enlaces" href="cursos.html">Cursos</a>
             <a class="navegacion__enlaces" href="contacto.html">Contacto</a>
+            <a class="navegacion__enlaces nav-cta-btn" href="cursos.html">Inscribirme</a>
           </nav>
         </div>
       </div>
+    </header>
+
+    <!-- Article Content -->
+    <main class="contenedor" style="padding-bottom: 7rem;">
+      <article>
+        <header class="article-header">
+          <div class="article-header__meta">
+            <span class="badge badge--caramel">Recetario Barista</span>
+            <span>•</span>
+            <time datetime="2026-09-20">20 de Septiembre, 2026</time>
+            <span>•</span>
+            <span>⏱ 7 min de lectura</span>
+          </div>
+
+          <h1 class="article-header__title">
+            Tres Deliciosas Recetas de Café de Especialidad para Preparar en Casa
+          </h1>
+
+          <p class="article-lead">
+            No necesitas una máquina comercial de 10,000 euros para disfrutar de bebidas sublimes. Con la técnica adecuada y granos recién tostados puedes recrear estas tres recetas icónicas.
+          </p>
+        </header>
+
+        <div class="article-featured-image">
+          <picture>
+            <source srcset="img/blog2.webp" type="image/webp">
+            <img src="img/blog2.jpg" alt="Taza de Flat White servida con arte latte" width="900" height="500" />
+          </picture>
+        </div>
+
+        <div class="article-body-content">
+          <p>
+            El secreto para elevar cualquier preparación radica en dos pilares innegociables: <strong>molienda en el momento justo antes de la infusión</strong> y <strong>agua filtrada o mineralizada a temperatura controlada (90°-94°C)</strong>. A continuación, nuestras tres recetas favoritas probadas en barra.
+          </p>
+
+          <!-- Receta 1 -->
+          <h3>1. Flat White Australiano Clásico</h3>
+          <p>
+            Nacido en las cafeterías de Sídney y Melbourne, el Flat White se distingue del latte y del capuchino por tener una proporción más alta de café y una microespuma aterciopelada casi líquida (sin burbujas secas).
+          </p>
+
+          <div class="recipe-step-box">
+            <div class="recipe-step-num">1</div>
+            <div class="recipe-step-content">
+              <h5>Extracción del Doble Ristretto</h5>
+              <p>Muele 18g de café de tueste medio. Extrae un shot doble corto (aproximadamente 36ml) en un tiempo de 24 a 27 segundos.</p>
+            </div>
+          </div>
+
+          <div class="recipe-step-box">
+            <div class="recipe-step-num">2</div>
+            <div class="recipe-step-content">
+              <h5>Texturizado de Microespuma (60°C)</h5>
+              <p>Vierte 150ml de leche fresca entera en la jarra metálica. Introduce la lanceta creando un vórtice continuo hasta alcanzar 60°-65°C. La textura debe lucir brillante como pintura fresca.</p>
+            </div>
+          </div>
+
+          <div class="recipe-step-box">
+            <div class="recipe-step-num">3</div>
+            <div class="recipe-step-content">
+              <h5>Vertido e Integración</h5>
+              <p>Sirve desde cierta altura para integrar la leche bajo la crema y finaliza acercando la jarra para dibujar un tulipán o roseta sobre una taza de cerámica de 180ml.</p>
+            </div>
+          </div>
+
+          <!-- Receta 2 -->
+          <h3>2. Cold Brew Infusionado con Vainilla y Canela</h3>
+          <p>
+            El café extraído por inmersión fría durante 16 a 18 horas elimina hasta un 65% de la acidez astringente, resaltando notas naturales a chocolate amargo, frutos secos y caramelo.
+          </p>
+          <div class="recipe-step-box">
+            <div class="recipe-step-num">1</div>
+            <div class="recipe-step-content">
+              <h5>Molienda Gruesa y Proporción 1:8</h5>
+              <p>Usa 100g de café molido grueso (como sal kosher) por 800ml de agua fría purificada. Agrega media rama de canela en rama y media vaina de vainilla abierta.</p>
+            </div>
+          </div>
+          <div class="recipe-step-box">
+            <div class="recipe-step-num">2</div>
+            <div class="recipe-step-content">
+              <h5>Maceración y Doble Filtrado</h5>
+              <p>Deja reposar en el refrigerador durante 16 a 18 horas. Filtra primero con colador metálico y luego a través de filtro de papel humedecido para lograr un licor cristalino.</p>
+            </div>
+          </div>
+
+          <!-- Receta 3 -->
+          <h3>3. Affogato al Caramelo Salado</h3>
+          <p>
+            El postre predilecto de Italia: el contraste térmico y gustativo absoluto entre el frío cremoso del helado artesanal y la calidez amarga de un espresso recién coronado.
+          </p>
+          <div class="recipe-step-box">
+            <div class="recipe-step-num">★</div>
+            <div class="recipe-step-content">
+              <h5>Paso a Paso Inmediato</h5>
+              <p>Coloca una bola generosa de gelato artesanal de vainilla Bourbon o Fior di Latte en una copa fría. Vierte inmediatamente un shot de espresso doble caliente por encima y finaliza con una pizca de flor de sal marina.</p>
+            </div>
+          </div>
+
+          <div style="display:flex; justify-content:space-between; align-items:center; padding-top:3rem; border-top:1px solid var(--color-latte-border); flex-wrap:wrap; gap:1.5rem;">
+            <a class="boton boton--secundario" href="entrada.html">&larr; Anterior: Tipos de Granos</a>
+            <a class="boton boton--primario" href="entrada3.html">Siguiente: Beneficios del Café &rarr;</a>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <!-- Modern Footer -->
+    <footer class="footer">
+      <div class="contenedor">
+        <div class="footer__grid">
+          <div class="footer__col">
+            <div class="logo" style="margin-bottom:1.4rem;">
+              <div class="logo__icon">
+                <svg viewBox="0 0 24 24">
+                  <path d="M20 3H4v10c0 2.21 1.79 4 4 4h6c2.21 0 4-1.79 4-4v-3h2c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 5h-2V5h2v3zM4 19h16v2H4z"/>
+                </svg>
+              </div>
+              <div class="logo__text-wrap">
+                <span class="logo__nombre" style="color:#ffffff;">Blog<span class="logo__bold" style="color:#fde68a;">DeCafé</span></span>
+                <span class="logo__tagline" style="color:#dfd4c7;">Specialty Coffee Community</span>
+              </div>
+            </div>
+            <p>
+              Dedicados a elevar la cultura del café de especialidad mediante artículos educativos, ratios de extracción precisos y cursos prácticos para todos los niveles.
+            </p>
+          </div>
+
+          <div class="footer__col">
+            <h4>Navegación</h4>
+            <ul class="footer__links">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="nosotros.html">Sobre Nosotros</a></li>
+              <li><a href="cursos.html">Cursos y Talleres</a></li>
+              <li><a href="contacto.html">Contacto & Ubicación</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__col">
+            <h4>Taller & Tostaduría</h4>
+            <p style="margin-bottom:0.8rem;">📍 Av. de los Cafetales 1420, Ciudad Barista</p>
+            <p style="margin-bottom:0.8rem;">⏰ Lunes a Sábado: 08:00 - 19:30</p>
+            <p>✉️ hola@blogdecafe.com</p>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <p>&copy; 2026 BlogDeCafé — Desarrollado con pasión por José Manuel Perdomo Marcano. Todos los derechos reservados.</p>
+          <p style="color:#d97706; font-weight:600;">Hecho para Amantes del Café de Calidad</p>
+        </div>
+      </div>
     </footer>
-    <script src="js/modernizr.js"></script>
+
+    <script src="js/app.js"></script>
   </body>
 </html>

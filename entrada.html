@@ -1,115 +1,174 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Pagina web con un blog sobre el cafe">
-    <meta name="author" content="Jose Manuel Perdomo Marcano">
-    <meta name="keywords" content="cafe, recetas, blog, postres"/> 
+    <title>Tipos de Granos de Café: Arábica, Robusta y Variedades Exóticas | Blog de Café</title>
+    <meta name="description" content="Aprende a diferenciar el café Arábica del Robusta, sus perfiles sensoriales, notas de cata y cómo la altitud influye en la taza." />
+    <meta name="author" content="Jose Manuel Perdomo Marcano" />
+
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=PT+Sans:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Tipos de Granos de Café</title>
   </head>
   <body>
-    <header class="header">
+    <!-- Top Bar Notice -->
+    <div class="top-notice-bar">
+      <span>☕ Tostaduría de Especialidad 2026 — Nuevos talleres de Barismo con cupo abierto.</span>
+      <a href="cursos.html">Ver Calendario &rarr;</a>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="site-navbar">
       <div class="contenedor">
         <div class="barra">
           <a class="logo" href="index.html">
-            <h1 class="logo__nombre no-margin">
-              Blog<span class="logo__bold">DeCafe</span>
-            </h1>
+            <div class="logo__icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M20 3H4v10c0 2.21 1.79 4 4 4h6c2.21 0 4-1.79 4-4v-3h2c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 5h-2V5h2v3zM4 19h16v2H4z"/>
+              </svg>
+            </div>
+            <div class="logo__text-wrap">
+              <span class="logo__nombre">Blog<span class="logo__bold">DeCafé</span></span>
+              <span class="logo__tagline">Specialty Coffee & Barista Craft</span>
+            </div>
           </a>
+
+          <button class="mobile-menu-btn" aria-label="Abrir menú de navegación" aria-expanded="false">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
 
           <nav class="navegacion">
             <a class="navegacion__enlaces navegacion__enlaces--activo" href="index.html">Inicio</a>
-            <a
-              class="navegacion__enlaces"
-              href="nosotros.html"
-              >Nosotros</a
-            >
-            <a class="navegacion__enlaces" href="cursos.html">Cursos</a>
-            <a class="navegacion__enlaces" href="contacto.html">Contacto</a>
-          </nav>
-        </div>
-      </div>
-
-      <div class="header__texto">
-        <h2 class="no-margin headertext">Blog de Cafe consejos y cursos</h2>
-        <p class="no-margin headermsj">
-          Aprende de los expertos con las mejores recetas y consejos
-        </p>
-      </div>
-    </header>
-
-    <main class="contenedor">
-      <h3 class="centrar-texto">Tipos de Granos de Café</h3>
-      <picture>
-        <source srcset="img/blog1.webp" type="image/webp">
-        <img loading="lazy" src="img/blog1.jpg" alt="imagen blogs" />
-      </picture>
-
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid similique molestiae labore esse illum excepturi expedita consequatur, libero, praesentium, nulla deserunt molestias? Sequi exercitationem velit, est eum molestiae excepturi tempora.
-     Eveniet dolores, fugit laudantium, suscipit consequuntur quas hic expedita, placeat quo quidem labore. Quis ipsam rerum, velit, voluptatum culpa distinctio esse voluptas adipisci aspernatur unde modi reprehenderit temporibus. Ipsum, totam.
-     Quae debitis ipsum deserunt quibusdam quidem similique magnam beatae omnis praesentium officia vero totam, cumque recusandae, quaerat delectus facilis sapiente maxime eos dolor, alias eveniet corrupti? Facere at vero asperiores!</p>
-
-     <p>Doloremque ducimus dicta exercitationem, molestias, omnis, delectus ipsum consequatur praesentium itaque soluta nihil temporibus asperiores laboriosam quasi provident. Necessitatibus commodi minus incidunt sit, expedita non soluta ab repellat corrupti neque.
-     Sed dolores itaque in culpa. Optio ducimus ratione tenetur ullam consectetur a magnam magni. Excepturi ea velit, esse dolore quis quos sapiente ex tempora unde inventore placeat vitae necessitatibus. Nobis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, quis. Nisi sed amet, assumenda repudiandae molestias est quaerat deserunt accusantium sint reiciendis expedita ducimus quod, ullam quam repellat blanditiis accusamus!</p>
-
-     <p>Asperiores id minima, quam beatae expedita enim incidunt similique doloremque illo voluptates voluptatibus repellendus quas nulla corrupti temporibus sunt, eveniet pariatur esse cupiditate voluptatum atque quia! Soluta esse inventore quae.
-     Officia sint fuga facilis quis iure quas quisquam. At autem voluptatibus repellendus ducimus, voluptas quam fugit numquam ipsam, eaque cum quibusdam iure minus reiciendis beatae optio amet mollitia corporis aperiam.</p>
-
-     <p>Iusto cupiditate dicta quam ea cumque harum tenetur, facere quasi reprehenderit libero architecto! Esse, ea debitis labore dolor sed voluptate voluptates dolorum vero commodi repellat eligendi architecto aut ipsam blanditiis!
-     Debitis corrupti ipsam repudiandae distinctio excepturi illum aut rem eius cupiditate quae assumenda eaque fugiat error ea facere non, iusto praesentium reiciendis delectus voluptatem modi. Laborum placeat minima quibusdam temporibus.</p>
-
-     <p>Doloremque repellat, rerum delectus sed obcaecati eius excepturi at eligendi ipsam sit voluptatum cumque aliquam deleniti enim sapiente quam, est nostrum eaque, nobis fugit. Exercitationem repudiandae ipsum in laboriosam excepturi!
-     Culpa quae harum amet magni numquam repudiandae exercitationem sint ipsam, at unde voluptas quis totam. Nostrum, beatae, at est exercitationem dolores soluta natus quaerat porro officia mollitia qui odit nihil.</p>
-
-     <p>Harum inventore expedita beatae nulla at, voluptas fuga deleniti, numquam molestias officiis amet error voluptatibus itaque accusamus maiores consequuntur alias. Veritatis quidem ipsum mollitia atque. Nulla doloribus inventore totam consectetur.
-     Id dolorum aperiam magni nesciunt in nulla deleniti accusantium, animi possimus, nostrum deserunt perferendis ut. Non numquam magnam culpa? Nemo officiis at molestiae iure ratione quidem possimus hic id animi.
-     Doloribus quidem in dolorem beatae veritatis earum harum suscipit inventore doloremque numquam deleniti officia quos minima delectus tempora sed, fugiat quod! Quia dicta nulla aperiam quisquam excepturi delectus nisi iusto!</p>
-
-     <a class="boton boton--secundario" href="index.html"
-     >Ir a Inicio</a
-   >
-    </main>
-
-    <footer class="footer">
-      <div class="contenedor">
-        <div class="barra">
-          <a class="logo" href="index.html">
-            <h1 class="logo__nombre-footer name-footer centrar-texto no-margin">
-              Blog<span class="logo__bold"
-                >DeCafe <span class="texto-footer"> &copy;</span>
-                <span class="texto-footer">
-                  <script>
-                    const date = new Date();
-                    const year = date.getFullYear();
-                    const month = date.getMonth() + 1;
-                    const day = date.getDate();
-                    const formattedDate = `${year}`; //AQUI SELECCIONE LO QUE QUERIA MOSTRAR Y ELIMINE LO QUE NO QUERIA MOSTRAR
-                    document.write(`${formattedDate}`);
-                  </script>
-                  Derechos Reservados</span
-                >
-              </span>
-            </h1>
-          </a>
-
-          <nav class="navegacion">
-            <a class="navegacion__enlaces" href="index.html">Inicio</a>
             <a class="navegacion__enlaces" href="nosotros.html">Nosotros</a>
             <a class="navegacion__enlaces" href="cursos.html">Cursos</a>
             <a class="navegacion__enlaces" href="contacto.html">Contacto</a>
+            <a class="navegacion__enlaces nav-cta-btn" href="cursos.html">Inscribirme</a>
           </nav>
         </div>
       </div>
+    </header>
+
+    <!-- Article Content -->
+    <main class="contenedor" style="padding-bottom: 7rem;">
+      <article>
+        <header class="article-header">
+          <div class="article-header__meta">
+            <span class="badge badge--caramel">Botánica del Café</span>
+            <span>•</span>
+            <time datetime="2026-09-15">15 de Septiembre, 2026</time>
+            <span>•</span>
+            <span>⏱ 5 min de lectura</span>
+          </div>
+
+          <h1 class="article-header__title">
+            Tipos de Granos de Café: Arábica, Robusta y Variedades Exóticas
+          </h1>
+
+          <p class="article-lead">
+            Detrás de cada sorbo de café existe una compleja genealogía botánica. Comprender las diferencias esenciales entre especies y variedades es el primer paso para entrenar tu paladar.
+          </p>
+        </header>
+
+        <div class="article-featured-image">
+          <picture>
+            <source srcset="img/blog1.webp" type="image/webp">
+            <img src="img/blog1.jpg" alt="Granos de café tostados y en verde" width="900" height="500" />
+          </picture>
+        </div>
+
+        <div class="article-body-content">
+          <p>
+            Aunque en el mercado comercial la palabra "café" parece englobar un producto homogéneo, en el mundo de la botánica y el café de especialidad existen más de 120 especies del género <em>Coffea</em>. Sin embargo, dos de ellas dominan más del 98% del consumo mundial: <strong>Coffea Arabica</strong> y <strong>Coffea Canephora (Robusta)</strong>.
+          </p>
+
+          <div class="article-callout">
+            <p>"La altitud ralentiza la maduración del fruto, permitiendo que los azúcares y ácidos orgánicos se concentren en el embrión del grano. A mayor altura, mayor complejidad en taza."</p>
+          </div>
+
+          <h3>1. Coffea Arabica: El estándar del café de especialidad</h3>
+          <p>
+            Originaria de los bosques montañosos de Etiopía y Sudán del Sur, el café Arábica crece a altitudes entre los 900 y 2,200 metros sobre el nivel del mar. Posee 44 cromosomas (tetraploide) y destaca por su delicadeza aromática:
+          </p>
+          <ul style="margin-left: 2rem; margin-bottom: 2.5rem; line-height: 1.8;">
+            <li><strong>Perfil sensorial:</strong> Notas florales (jazmín, flor de azahar), cítricos brillantes (bergamota, lima) y dulzores acaramelados o achocolatados.</li>
+            <li><strong>Contenido de cafeína:</strong> Entre 1.1% y 1.5%, aproximadamente la mitad que el grano Robusta.</li>
+            <li><strong>Variedades reconocidas:</strong> Typica, Bourbon, Caturra, Castillo, Pacamara y la legendaria variedad <em>Geisha</em>.</li>
+          </ul>
+
+          <h3>2. Coffea Canephora (Robusta): Fuerza y cuerpo</h3>
+          <p>
+            Nativa del África subsahariana occidental, Robusta es una planta mucho más resistente a plagas y temperaturas elevadas, capaz de cultivarse al nivel del mar. Sus granos son más redondeados con una hendidura casi recta.
+          </p>
+          <p>
+            Históricamente relegada a cafés instantáneos y mezclas industriales de espresso por su amargor pronunciado y notas a madera y nuez tostada, hoy en día están surgiendo proyectos de <em>Fine Robusta</em> que demuestran que con procesos de fermentación controlada se pueden obtener espressos extraordinarios con una crema espesa y persistente.
+          </p>
+
+          <h3>3. Variedades Exóticas que debes conocer</h3>
+          <p>
+            Si buscas expandir tu experiencia gustativa en métodos de filtrado manual como V60 o Chemex, te recomendamos buscar en bolsas de tostadurías de especialidad las siguientes variedades:
+          </p>
+          <ul style="margin-left: 2rem; margin-bottom: 3rem; line-height: 1.8;">
+            <li><strong>Geisha / Gesha:</strong> Célebre por su intensidad de té de jazmín, melocotón blanco y bergamota con cuerpo sedoso.</li>
+            <li><strong>Pacamara:</strong> Grano de tamaño gigante originario de El Salvador, conocido por sus notas frutales tropicales y herbales.</li>
+            <li><strong>Pink Bourbon:</strong> Una mutación natural de Colombia que entrega un perfil único a frambuesa, miel y papaya fresca.</li>
+          </ul>
+
+          <div style="display:flex; justify-content:space-between; align-items:center; padding-top:3rem; border-top:1px solid var(--color-latte-border); flex-wrap:wrap; gap:1.5rem;">
+            <a class="boton boton--secundario" href="index.html">&larr; Volver al Inicio</a>
+            <a class="boton boton--primario" href="entrada2.html">Siguiente: Tres Recetas de Especialidad &rarr;</a>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <!-- Modern Footer -->
+    <footer class="footer">
+      <div class="contenedor">
+        <div class="footer__grid">
+          <div class="footer__col">
+            <div class="logo" style="margin-bottom:1.4rem;">
+              <div class="logo__icon">
+                <svg viewBox="0 0 24 24">
+                  <path d="M20 3H4v10c0 2.21 1.79 4 4 4h6c2.21 0 4-1.79 4-4v-3h2c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 5h-2V5h2v3zM4 19h16v2H4z"/>
+                </svg>
+              </div>
+              <div class="logo__text-wrap">
+                <span class="logo__nombre" style="color:#ffffff;">Blog<span class="logo__bold" style="color:#fde68a;">DeCafé</span></span>
+                <span class="logo__tagline" style="color:#dfd4c7;">Specialty Coffee Community</span>
+              </div>
+            </div>
+            <p>
+              Dedicados a elevar la cultura del café de especialidad mediante artículos educativos, ratios de extracción precisos y cursos prácticos para todos los niveles.
+            </p>
+          </div>
+
+          <div class="footer__col">
+            <h4>Navegación</h4>
+            <ul class="footer__links">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="nosotros.html">Sobre Nosotros</a></li>
+              <li><a href="cursos.html">Cursos y Talleres</a></li>
+              <li><a href="contacto.html">Contacto & Ubicación</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__col">
+            <h4>Taller & Tostaduría</h4>
+            <p style="margin-bottom:0.8rem;">📍 Av. de los Cafetales 1420, Ciudad Barista</p>
+            <p style="margin-bottom:0.8rem;">⏰ Lunes a Sábado: 08:00 - 19:30</p>
+            <p>✉️ hola@blogdecafe.com</p>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <p>&copy; 2026 BlogDeCafé — Desarrollado con pasión por José Manuel Perdomo Marcano. Todos los derechos reservados.</p>
+          <p style="color:#d97706; font-weight:600;">Hecho para Amantes del Café de Calidad</p>
+        </div>
+      </div>
     </footer>
-    <script src="js/modernizr.js"></script>
+
+    <script src="js/app.js"></script>
   </body>
 </html>
